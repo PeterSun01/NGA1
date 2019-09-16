@@ -1,7 +1,5 @@
 
 build/
-#Makefile
-#sdkconfig*
 
 # Object files
 *.o

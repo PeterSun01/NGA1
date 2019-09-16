@@ -1,3 +1,6 @@
+使用esp-aliyun连接飞燕
+ESP-IDF = v3.2.2
+esp-aliyun=b2b5fb2
 版本号：make menuconfig
 iotkit setting
 
