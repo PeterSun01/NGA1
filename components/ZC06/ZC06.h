@@ -6,6 +6,7 @@
 
 uint16_t CH4;
 uint8_t CH4_Alm_status;
+uint8_t CH4_UpLink_Time;
 
 
 

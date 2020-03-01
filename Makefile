@@ -2,7 +2,7 @@
 # This is a project Makefile. It is assumed the directory this Makefile resides in is a
 # project subdirectory.
 #
-PROJECT_NAME := NGA1_V0.0.1
+PROJECT_NAME := NGA1_V0.0.3
 
 EXTRA_COMPONENT_DIRS := $(ESP_ALIYUN_PATH)
 

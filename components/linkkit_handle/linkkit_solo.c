@@ -479,9 +479,9 @@ int linkkit_main(void *paras)
             continue;
         }
 
-        if (time_now_sec % 11 == 0) 
+        if (time_now_sec % CH4_UpLink_Time == 0) 
         {
-            user_post_property();//10 sec upload once
+            user_post_property();//60 sec upload once
         }
 
         time_prev_sec = time_now_sec;

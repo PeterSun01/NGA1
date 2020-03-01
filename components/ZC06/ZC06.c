@@ -101,11 +101,13 @@ void ZC06_Read_Task(void* arg)
                     {
                         CH4_Alm_status=1;
                         Beep_status=BEEP_ALM;
+                        CH4_UpLink_Time=5;
                     }
                     else
                     {
                         CH4_Alm_status=0;
                         Beep_status=BEEP_OFF;
+                        CH4_UpLink_Time=60;
                     }
                     printf("CH4=%d\r\n",CH4);
                     printf("Free memory: %d bytes\n", esp_get_free_heap_size());
